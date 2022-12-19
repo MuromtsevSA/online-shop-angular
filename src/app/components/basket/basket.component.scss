@@ -1,0 +1,25 @@
+.container {
+  margin: 0 auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex;
+}
+
+.example-card {
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  color: black;
+}
+
+.title {
+  text-align: center;
+}
+
+.button {
+  margin-right: 5px;
+}
+
+.image {
+  max-width: 180px;
+}

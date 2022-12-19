@@ -1,0 +1,19 @@
+<div class="container">
+  <mat-card class="example-card" *ngFor="let bask of basket">
+      <mat-card-title class="title" >{{ bask.title }}</mat-card-title>
+      <img class="image" mat-card-image src="{{ bask.image }}"/>
+    <mat-card-content>
+      <p>Price: {{bask.price | currency}}</p>
+      <p>Year: {{bask.year}}</p>
+      <p>Chip: {{bask.configure.chip}}</p>
+      <p>SSD: {{bask.configure.ssd}}</p>
+      <p>Display: {{bask.configure.display}}</p>
+      <p>Memory: {{bask.configure.memory}}</p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button class="button" mat-stroked-button color="primary" (click)="minusItemFromBasket(bask)">-</button>
+      <p>Кол-во: {{bask.quantity}}</p>
+      <button class="button" mat-stroked-button color="primary" (click)="plusItemFromBasket(bask)">+</button>
+    </mat-card-actions>
+  </mat-card>
+</div>

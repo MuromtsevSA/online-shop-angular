@@ -1,0 +1,154 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Macbook",
+      "year": "2021",
+      "price": 900,
+      "image": "assets/Images/mac.jpg",
+      "configuer": {
+        "chip": "M1",
+        "SSD": "256 GB",
+        "memory": "16 GB",
+        "display": "Retina"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Macbook Air",
+      "year": "2021",
+      "price": 1000,
+      "image": "assets/Images/mac.jpg",
+      "configuer": {
+        "chip": "M1",
+        "SSD": "256 GB",
+        "memory": "16 GB",
+        "display": "Retina"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Macbook Pro1",
+      "year": "2022",
+      "price": 1200,
+      "image": "assets/Images/mac.jpg",
+      "configure": {
+        "chip": null,
+        "ssd": null,
+        "memory": null
+      }
+    },
+    {
+      "id": 4,
+      "title": "macbook (inel)",
+      "year": "2022",
+      "price": "1000",
+      "image": "assets/Images/mac.jpg",
+      "configure": {
+        "chip": "intel",
+        "ssd": null,
+        "memory": null
+      }
+    },
+    {
+      "id": 5,
+      "title": "hhh",
+      "year": null,
+      "price": "1000",
+      "image": "assets/Images/mac.jpg",
+      "configure": {
+        "chip": null,
+        "ssd": null,
+        "memory": null
+      }
+    },
+    {
+      "id": 6,
+      "title": "fghj",
+      "year": null,
+      "price": null,
+      "image": "assets/Images/mac.jpg",
+      "configure": {
+        "chip": null,
+        "ssd": null,
+        "memory": null
+      }
+    },
+    {
+      "id": 7,
+      "title": "fghj",
+      "year": null,
+      "price": null,
+      "image": "assets/Images/mac.jpg",
+      "configure": {
+        "chip": null,
+        "ssd": null,
+        "memory": null
+      }
+    },
+    {
+      "id": 8,
+      "title": "tyjkjh",
+      "year": null,
+      "price": null,
+      "image": "assets/Images/mac.jpg",
+      "configure": {
+        "chip": null,
+        "ssd": null,
+        "memory": null
+      }
+    },
+    {
+      "id": 9,
+      "title": "dfghjk",
+      "year": null,
+      "price": null,
+      "image": "assets/Images/mac.jpg",
+      "configure": {
+        "chip": null,
+        "ssd": null,
+        "memory": null
+      }
+    },
+    {
+      "id": 10,
+      "title": "fghjklkh",
+      "year": "2333",
+      "price": "3467",
+      "image": "assets/Images/mac.jpg",
+      "configure": {
+        "chip": "hhhh",
+        "ssd": "kjhgh",
+        "memory": "15000"
+      }
+    }
+  ],
+  "basket": [
+    {
+      "id": 4,
+      "title": "macbook (inel)",
+      "year": "2022",
+      "price": "1000",
+      "image": "assets/Images/mac.jpg",
+      "configure": {
+        "chip": "intel",
+        "ssd": null,
+        "memory": null
+      },
+      "quantity": 1
+    },
+    {
+      "id": 3,
+      "title": "Macbook Pro1",
+      "year": "2022",
+      "price": 1200,
+      "image": "assets/Images/mac.jpg",
+      "configure": {
+        "chip": null,
+        "ssd": null,
+        "memory": null
+      },
+      "quantity": 5
+    }
+  ]
+}
